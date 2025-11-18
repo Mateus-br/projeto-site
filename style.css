@@ -6,8 +6,8 @@
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    /*background-color: #f4f4f4;*/
-    background-image: url(/images/fundo1.avif);
+    background-image: url(/images/background.png);
+    color: #FFF;
     /* Impede que a imagem se repita, caso ela não seja grande o suficiente */
     background-repeat: no-repeat; 
     
@@ -20,15 +20,12 @@ body {
     /* (Opcional) Fixa a imagem de fundo para que ela não role com o conteúdo */
     background-attachment: fixed; 
     
-    /* Define uma cor de fundo sólida para ser exibida enquanto a imagem não carrega */
-    background-color: #cccccc;
-    color: #fff;
 }
 
 /* NAVBAR */
 header {
     /*background-color: #222;*/
-    background-color: #FFF;
+    background-color: #fff;
     padding: 15px 0;
     position: fixed;
     width: 100%;
